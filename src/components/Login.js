@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 const Login = (props) => {
     const [credential, setCredential] = useState({email:"",password:""})
     const navigate = useNavigate();
-    const host="http://localhost:5000";
+    const host="https://naughty-cod-helmet.cyclic.cloud";
     const onChange=(e)=>{
         setCredential({...credential,[e.target.name]:e.target.value})
     }
